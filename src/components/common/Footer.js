@@ -24,14 +24,14 @@ const Footer = () => {
               width="0"
               height="0"
               sizes="100vw"
-              className="w-auto h-auto max-w-[100px]"
+              className="w-auto h-auto max-w-[85px]"
             />
             <div className="ml-2 tracking-[1px] sm:tracking-[2.5px]">
               <h6>Aliflikescoding</h6>
               <h6>© Copyright - 2025</h6>
             </div>
           </div>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <CustomLink link="https://github.com/aliflikescoding">
               <FaGithub />
             </CustomLink>

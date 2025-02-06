@@ -1,9 +1,10 @@
 import "./globals.css";
 import Footer from "@/components/common/Footer";
+import Header from "@/components/common/Header";
 
 export const metadata = {
-  title: "Alif Wibowo",
-  description: "Alif Wibowo's portfolio/personal website",
+  title: "aliflikescoding",
+  description: "Alif Wibowo's personal website",
 };
 
 export default function RootLayout({ children }) {
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         {/* Add this line for favicon */}
       </head>
       <body className="bg-customCream text-customBlack font-roboto scroll-smooth">
+        <Header />
         {children}
         <Footer />
       </body>

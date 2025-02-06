@@ -9,11 +9,12 @@ const CustomLink = ({ children, link }) => {
       target="_"
       className="
       p-2
-      text-customBlack 
-      bg-customWhite
+      text-customWhite
+      bg-customBlue
       rounded-full 
-      font-semibold 
-      text-4xl
+      font-semibold
+      text-xl 
+      sm:text-4xl
       shadow-[4px_4px_0_rgb(0,0,0)] 
       transition-all 
       hover:shadow-none 
