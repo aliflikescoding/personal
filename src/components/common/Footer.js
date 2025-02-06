@@ -2,7 +2,15 @@ import React from "react";
 import CustomContainer from "../custom/CustomContainer";
 import Image from "next/image";
 import CustomLink from "../custom/CustomLink";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedinIn,
+  FaInstagram,
+  FaYoutube,
+  FaTiktok,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -29,6 +37,18 @@ const Footer = () => {
             </CustomLink>
             <CustomLink link="https://www.linkedin.com/in/alifwibowo/">
               <FaLinkedinIn />
+            </CustomLink>
+            <CustomLink link="https://www.instagram.com/aliflikescoding/">
+              <FaInstagram />
+            </CustomLink>
+            <CustomLink link="https://www.youtube.com/@aliflikescoding">
+              <FaYoutube />
+            </CustomLink>
+            <CustomLink link="https://x.com/AlifLikesCoding">
+              <FaXTwitter />
+            </CustomLink>
+            <CustomLink link="https://www.tiktok.com/@aliflikescoding">
+              <FaTiktok />
             </CustomLink>
           </div>
         </div>
